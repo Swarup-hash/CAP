@@ -3,7 +3,7 @@
 
 <head>
 
-    <title> System Login</title>
+    <title>System Sign in</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap v5.1.3 CDNs -->
@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- CSS File -->
-    <link rel="stylesheet" href="Systemlogin.css">
+    <link rel="stylesheet" href="SystemSignin.css">
 
 </head>
 
@@ -22,35 +22,34 @@
     <div class="container">
 
         <div class="login">
-            <img src="../CAP SYSTEM/images/CAPlogo.png" height  ="120" alt="CAP Logo">
-            <h3 class="h4-header">System Login</h3>
-            
-            
-            <form class="needs-validation">
+            <img src="./images/CAPlogo.png" height  ="120" alt="CAP Logo">
+
+            <h3 class="h4-header">System Register</h3>
+
                 <div class="form-group was-validated">
                     <label class="form-label" for="email"></label>
-                    <input class="form-control" type="email" id="email" placeholder="Email id/User id" required>
+                    <input class="form-control" type="email" id="email" placeholder="Email Id/User Id" required>
                     </div>
               
                 <div class="form-group was-validated">
                     <label class="form-label" for="password"></label>
                     <input class="form-control" type="password" id="password" placeholder="Enter Password" required>
                     </div>
-                    <div class="form-group was-validated">
-                        <label class="form-label" for="Department"></label>
-                        <input class="form-control" type="Department" id="Department" placeholder="Enter Department" required>
-                        </div>
+
+                    <form class="needs-validation">
+                        <div class="form-group was-validated">
+                            <label class="form-label" for="User ID"></label>
+                            <input class="form-control" type="User ID" id="User ID" placeholder="Department" required>
+                            </div>
                 
                 <div class="form-group form-check">
                     <input class="form-check-input" type="checkbox" id="check">
-                    <label class="form-check-label" for="check">Remember me</label>
+                    <label class="form-check-label" for="check">I agree to the Terms & Condition</label>
                 </div>
                 <div>
-                <input class="btn btn-dark" type="submit" value="Login">
-<br>
-<br>
-                <a href="#">Forgot Password</a>
-                <p>Don't have an account ?  <a href="./SystemSignin.html">Register here</a></p>
+                    <br>
+                <input class="btn btn-dark" type="submit" value="Register">
+
             </div>
             </div>
         </div>
